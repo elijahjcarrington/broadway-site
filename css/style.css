@@ -1,0 +1,50 @@
+* {
+
+}
+
+html {
+
+}
+
+body {
+  text-align: center;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+
+p .white {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav li a {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+}
+
+p.copyright {
+  font-size: 11px;
+  background-color: dimgray;
+}
