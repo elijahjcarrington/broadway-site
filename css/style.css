@@ -1,9 +1,12 @@
+/***** Global *****/
+
 * {
 
 }
 
 html {
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,7 +16,9 @@ body {
   color: black;
 }
 
-p .white {
+/***** Type *****/
+
+.white {
   color: white;
 }
 
@@ -36,8 +41,13 @@ h3 {
 }
 
 nav li a {
+  color: white;
   font-size: 18px;
   text-decoration: underline;
+}
+
+nav > li {
+  list-style: none;
 }
 
 p {
@@ -47,4 +57,23 @@ p {
 p.copyright {
   font-size: 11px;
   background-color: dimgray;
+}
+
+/***** Sections *****/
+
+div.building {
+  margin: 0;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  background-color: gray;
+
+  background: url("../img/building.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+
 }
