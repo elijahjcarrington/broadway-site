@@ -44,6 +44,7 @@ nav li a {
   color: white;
   font-size: 18px;
   text-decoration: underline;
+  line-height: 2em;
 }
 
 nav > li {
@@ -54,26 +55,34 @@ p {
   font-size: 14px;
 }
 
-p.copyright {
+p.copyright, a.copyright {
   font-size: 11px;
   background-color: dimgray;
 }
 
+
+h3.designed {
+  background: url("../img/building.png");
+}
+
+
 /***** Sections *****/
 
+div.main {
+  display: block;
+  clear: both;
+}
+
 div.building {
-  margin: 0;
   top: 0;
   left: 0;
-  height: 300px;
-  width: 100%;
-  position: absolute;
-  background-color: gray;
-
   background: url("../img/building.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
 
-
+div.content-identify img {
+  height: 50px;
+  width: auto;
 }
